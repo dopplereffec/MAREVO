@@ -1,54 +1,82 @@
-﻿Построение начато 27.12.2017 12:54:45.
-     1>Проект "C:\GIT\VRAG\MAREVO\Game\Game\Game.vcxproj" в узле 2 (целевые объекты build).
+﻿Построение начато 27.12.2017 18:22:35.
+     1>Проект "F:\gg\MAREVO\Game\Game\Game.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
-         Создание "Debug\Game.unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\Game.unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\БАЛКАТРОН\Desktop\Read\SFML-2.3.2\include" /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_DYNAMIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         f:\vs2010\VC\bin\CL.exe /c /I"F:\gg\MAREVO\SFML-2.3.2\include" /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_DYNAMIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\git\vrag\marevo\game\game\map.h(40): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(40): warning C4551: в вызове функции отсутствует список аргументов
-     1>c:\git\vrag\marevo\game\game\main.cpp(42): warning C4305: =: усечение из "double" к "float"
-     1>c:\git\vrag\marevo\game\game\main.cpp(45): warning C4305: =: усечение из "double" к "float"
-     1>c:\git\vrag\marevo\game\game\main.cpp(49): warning C4305: =: усечение из "double" к "float"
-     1>c:\git\vrag\marevo\game\game\main.cpp(60): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(61): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(65): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(66): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(67): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(68): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(92): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(100): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(100): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(106): warning C4305: =: усечение из "double" к "float"
-     1>c:\git\vrag\marevo\game\game\main.cpp(112): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(113): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(117): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(118): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(119): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(119): warning C4305: =: усечение из "double" к "float"
-     1>c:\git\vrag\marevo\game\game\main.cpp(120): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(120): warning C4305: =: усечение из "double" к "float"
-     1>c:\git\vrag\marevo\game\game\main.cpp(221): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(250): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-     1>c:\git\vrag\marevo\game\game\main.cpp(250): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-       ManifestResourceCompile:
-         Для всех выходных данных обновления не требуется.
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GIT\VRAG\MAREVO\Game\Debug\Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\БАЛКАТРОН\Desktop\Read\SFML-2.3.2\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\GIT\VRAG\MAREVO\Game\Debug\Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GIT\VRAG\MAREVO\Game\Debug\Game.lib" /MACHINE:X86 Debug\Game.exe.embed.manifest.res
-         Debug\main.obj
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Game.exe.embed.manifest" /manifest Debug\Game.exe.intermediate.manifest
-         Для всех выходных данных обновления не требуется.
-       LinkEmbedManifest:
-         Для всех выходных данных обновления не требуется.
-         Game.vcxproj -> C:\GIT\VRAG\MAREVO\Game\Debug\Game.exe
-       FinalizeBuildStatus:
-         Файл "Debug\Game.unsuccessfulbuild" удаляется.
-         Обращение к "Debug\Game.lastbuildstate".
-     1>Построение проекта "C:\GIT\VRAG\MAREVO\Game\Game\Game.vcxproj" завершено (целевые объекты build).
+     1>f:\gg\marevo\game\game\map.h(40): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(40): warning C4551: в вызове функции отсутствует список аргументов
+     1>f:\gg\marevo\game\game\main.cpp(42): warning C4305: =: усечение из "double" к "float"
+     1>f:\gg\marevo\game\game\main.cpp(45): warning C4305: =: усечение из "double" к "float"
+     1>f:\gg\marevo\game\game\main.cpp(49): warning C4305: =: усечение из "double" к "float"
+     1>f:\gg\marevo\game\game\main.cpp(60): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(61): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(65): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(66): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(67): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(68): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(92): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(100): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(100): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(107): warning C4305: =: усечение из "double" к "float"
+     1>f:\gg\marevo\game\game\main.cpp(113): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(114): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(118): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(119): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(120): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(120): warning C4305: =: усечение из "double" к "float"
+     1>f:\gg\marevo\game\game\main.cpp(121): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(121): warning C4305: =: усечение из "double" к "float"
+     1>f:\gg\marevo\game\game\main.cpp(222): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(235): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(235): error C2065: entities: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(235): error C2228: выражение слева от ".begin" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>f:\gg\marevo\game\game\main.cpp(235): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(235): error C2065: entities: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(235): error C2228: выражение слева от ".end" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>f:\gg\marevo\game\game\main.cpp(237): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(238): error C2039: update: не является членом "Entity"
+                 f:\gg\marevo\game\game\main.cpp(9): см. объявление "Entity"
+     1>f:\gg\marevo\game\game\main.cpp(239): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(239): error C2065: entities: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(239): error C2228: выражение слева от ".erase" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>f:\gg\marevo\game\game\main.cpp(239): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(240): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(242): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(242): error C2065: entities: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(242): error C2228: выражение слева от ".begin" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>f:\gg\marevo\game\game\main.cpp(242): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(242): error C2065: entities: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(242): error C2228: выражение слева от ".end" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>f:\gg\marevo\game\game\main.cpp(242): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(244): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(244): error C2227: выражение слева от "->getRect" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>f:\gg\marevo\game\game\main.cpp(244): error C2228: выражение слева от ".intersects" должно представлять класс, структуру или объединение
+     1>f:\gg\marevo\game\game\main.cpp(244): error C2039: getRect: не является членом "Player"
+                 f:\gg\marevo\game\game\main.cpp(27): см. объявление "Player"
+     1>f:\gg\marevo\game\game\main.cpp(246): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(246): error C2227: выражение слева от "->name" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>f:\gg\marevo\game\game\main.cpp(248): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(248): error C2227: выражение слева от "->dx" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>f:\gg\marevo\game\game\main.cpp(248): warning C4305: =: усечение из "double" к "float"
+     1>f:\gg\marevo\game\game\main.cpp(248): error C2065: it: необъявленный идентификатор
+     1>f:\gg\marevo\game\game\main.cpp(248): error C2227: выражение слева от "->health" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>f:\gg\marevo\game\game\main.cpp(269): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>f:\gg\marevo\game\game\main.cpp(269): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>Построение проекта "F:\gg\MAREVO\Game\Game\Game.vcxproj" завершено (целевые объекты build) с ошибкой.
 
-Построение успешно завершено.
+СБОЙ построения.
 
-Затраченное время: 00:00:02.01
+Затраченное время: 00:00:00.39

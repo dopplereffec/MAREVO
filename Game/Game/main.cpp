@@ -99,6 +99,7 @@ class Enemy :public Entity{
 FloatRect getRect(){
 		return FloatRect(x, y, w, h);
 	}
+
 public:
 	Enemy(Image &image, float X, float Y,int W,int H,String Name):Entity(image,X,Y,W,H,Name){ 
 		if (name == "EasyEnemy"){
@@ -231,8 +232,26 @@ RenderWindow window(sf::VideoMode(1173, 779), "8");
 		}		
 		p.update(time);// Player update function
 		
-		
-
+for (it = entities.begin(); it != entities.end();)//говорим что проходимся от начала до конца
+		{
+			Entity *b = *it;//для удобства, чтобы не писать (*it)->
+			b->update(time);//вызываем ф-цию update для всех объектов (по сути для тех, кто жив)
+			if (b->life == false)	{ it = entities.erase(it); delete b; }// если этот объект мертв, то удаляем его
+			else it++;//и идем курсором (итератором) к след объекту. так делаем со всеми объектами списка
+		}
+for (it = entities.begin(); it != entities.end(); it++)//проходимся по эл-там списка
+		{
+			if ((*it)->getRect().intersects(p.getRect()))//если прямоугольник спрайта объекта пересекается с игроком
+			{
+				if ((*it)->name == "EasyEnemy"){//и при этом имя объекта EasyEnemy,то..
+					
+					if ((p.dy>0) && (p.onGround == false)) { (*it)->dx = 0; p.dy = -0.2; (*it)->health = 0; }//если прыгнули на врага,то даем врагу скорость 0,отпрыгиваем от него чуть вверх,даем ему здоровье 0
+					else {
+						p.health -= 5;	//иначе враг подошел к нам сбоку и нанес урон
+					}
+				}
+			}
+		}
 
 		easyEnemy.update(time);//easyEnemy update function
 		window.setView(view);
