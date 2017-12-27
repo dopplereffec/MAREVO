@@ -3,7 +3,7 @@ using namespace sf;
  
 sf::View view;//объ€вили sfml объект "вид", который и €вл€етс€ камерой
  
-void getplayercoordinateforview(float x, float y) { //функци€ дл€ считывани€ координат игрока
+void setPlayerCoordinateForView(float x, float y) { //функци€ дл€ считывани€ координат игрока
 	float tempX = x; float tempY = y;//считываем коорд игрока и провер€ем их, чтобы убрать кра€
  
 	if (x < 320) tempX = 320;//убираем из вида левую сторону
